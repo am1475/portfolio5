@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Unique Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body class="bg-gray-100 h-screen flex flex-col">
+    <!-- Navbar -->
+    <nav class="p-4 bg-gray-900 bg-opacity-75">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="text-white font-bold text-2xl">Amartya's Portfolio</div>
+            <ul class="flex space-x-4">
+                <li><a href="#" class="text-white">Home</a></li>
+                <li><a href="#" class="text-white">About me </a></li>
+                <li><a href="#" class="text-white">Projects</a></li>
+                <li><a href="#" class="text-white">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="container mx-auto mt-8 flex flex-col lg:flex-row lg:items-center" data-aos="fade-up">
+        <div class="glass mb-8 lg:mb-0 p-8 rounded-lg max-w-xl lg:w-1/2 lg:mr-4">
+            <div class="hero-text">
+                <h1 class="text-4xl lg:text-6xl font-bold mb-4">Welcome to my Portfolio</h1>
+                <p class="text-gray-700 text-lg lg:text-xl">
+                    <span class="typewriter block">Welcome to my portfolio! I'm a second-year Computer Science student at Dy Patil College of Engineering. Passionate about technology, I explore coding challenges and innovative projects. Join me on this journey of learning and discovery as I strive to make an impact in the world of technology.</span>
+                </p>
+            </div>
+        </div>
+        <div class="glass p-8 rounded-lg max-w-lg lg:w-1/2" data-aos="fade-left">
+            <!-- Your image card goes here -->
+            <div class="image-card rounded-lg p-4">
+                <!-- Replace 'your-image.jpg' with your actual image -->
+                <img src="ash.jpg" alt="Your Name" class="w-full h-auto rounded-lg">
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stacks Section -->
+    <section class="container mx-auto mt-8 p-8 glass rounded-lg max-w-xl" data-aos="fade-up">
+        <h2 class="text-3xl font-bold mb-4">Tech Stacks</h2>
+        <!-- Insert technology logos here -->
+        <div class="flex flex-wrap items-center mt-2">
+            <img src="html.png" alt="HTML" class="w-10 h-10 mr-4 mb-4">
+            <img src="css.jpeg" alt="CSS" class="w-10 h-10 mr-4 mb-4">
+            <img src="js.jpg" alt="JavaScript" class="w-10 h-10 mr-4 mb-4">
+            <img src="react.jpeg" alt="JavaScript" class="w-10 h-10 mr-4 mb-4">
+            <img src="vite.png" alt="JavaScript" class="w-10 h-10 mr-4 mb-4">
+            <img src="tailwind.png" alt="JavaScript" class="w-10 h-10 mr-4 mb-4">
+            <img src="mongodb.png" alt="JavaScript" class="w-10 h-10 mr-4 mb-4">
+            <img src="express.jpeg" alt="JavaScript" class="w-10 h-10 mr-4 mb-4">
+            <img src="Nodejs.png" alt="JavaScript" class="w-10 h-10 mr-4 mb-4">
+            <img src="flask.jpeg" alt="JavaScript" class="w-10 h-10 mr-4 mb-4">
+            <img src="mysql.png" alt="JavaScript" class="w-10 h-10 mr-4 mb-4">
+            <!-- Add more technology logos as needed -->
+        </div>
+    </section>
+
+    <!-- Educational Timeline Section -->
+    <!-- Educational Timeline Section -->
+<section class="full-width-section mt-8 p-8 glass rounded-lg" data-aos="fade-up">
+    <h2 class="text-3xl font-bold mb-4">Projects</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Project Card 1 -->
+        <div class="card glass p-6 rounded-lg">
+            <img src="hotel.jpg" alt="Project 1" class="w-full h-auto rounded-lg mb-4">
+            <h3 class="text-xl font-semibold mb-2">Restaurant Management System</h3>
+            <p class="text-gray-600">A first-year engineering project, this Python Restaurant Management System integrates database connectivity, text-to-speech interaction, menu handling, bill calculation, GUI generation, and user image capture. It offers intuitive navigation and an exit option for user convenience, making it a comprehensive solution for restaurant management.
+            </p>
+
+            <a href="https://github.com/am1475/AI-Hotel-Management/blob/main/advance%20hm%20trial.py" target="_blank" rel="noopener noreferrer">
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4">
+                    View Source Code
+                </button>
+            </a>
+        </div>
+        <!-- Project Card 2 -->
+        <div class="card glass p-6 rounded-lg">
+            <a href="https://661832444d66541575902780--ornate-cranachan-41d92e.netlify.app/">
+                <img src="tindog.png" alt="Project 2" class="w-full h-auto rounded-lg mb-4">
+            </a>
+            <h3 class="text-xl font-semibold mb-2">Tindog</h3>
+            <p class="text-gray-600">A simple Frontend project developed in my initial days of web development to demonstrate bootstrap. It utilizes Bootstrap for styling, featuring sections for showcasing app features, testimonials, pricing plans, and a footer with navigation links. It emphasizes simplicity, elite clientele, guaranteed functionality, and offers various subscription tiers. </p>
+            <a href="https://661832444d66541575902780--ornate-cranachan-41d92e.netlify.app/">
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4">
+                Visit website
+            </button>
+            </a>
+        </div>
+        
+        <!-- Project Card 3 -->
+        <div class="card glass p-6 rounded-lg">
+            <a href="https://6611ad6db1605427b9603ecd--warm-fairy-b29ba4.netlify.app/">
+            <img src="ecommerce.png" alt="Project 3" class="w-full h-auto rounded-lg mb-4"></a>
+            <h3 class="text-xl font-semibold mb-2">E-Commerce website</h3>
+            <p class="text-gray-600">Developed an e-commerce platform using React for frontend and Node.js with MongoDB for backend. Features include adding products to cart, user authentication, and checkout. Utilized Tailwind CSS for styling and Axios for API requests. Implemented functionality for adding, updating, and removing items from the cart</p>
+            <b>Note:I am yet to deploy this website completely!!</b>
+            <a href="https://6611ad6db1605427b9603ecd--warm-fairy-b29ba4.netlify.app/">
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4">
+                Visit website
+            </button></a>
+
+        </div>
+        <!-- Add more project cards as needed -->
+    </div>
+</section>
+<section class="container mx-auto mt-8 p-8 glass rounded-lg max-w-xl" data-aos="fade-up">
+    <h2 class="text-3xl font-bold mb-4">Want to get in touch?</h2>
+    <p class="text-gray-600 mb-4">Feel free to reach out to me through any of the following platforms:</p>
+    <div class="flex items-center space-x-4">
+        <a href="https://www.instagram.com/your_instagram_username" target="_blank" rel="noopener noreferrer">
+            <img src="instagram.png" alt="Instagram" class="w-10 h-10">
+        </a>
+        <a href="https://www.linkedin.com/in/amartya-paul-702650245" target="_blank" rel="noopener noreferrer">
+            <img src="linkedin.png" alt="LinkedIn" class="w-10 h-10">
+        </a>
+        <a href="https://www.hackerrank.com/profile/amartyapaul760" target="_blank" rel="noopener noreferrer">
+            <img src="hackerrank.png" alt="HackerRank" class="w-10 h-10">
+        </a>
+        <a href="https://leetcode.com/amartyapaul_569/" target="_blank" rel="noopener noreferrer">
+            <img src="leetcode.jpeg" alt="LeetCode" class="w-10 h-10">
+        </a>
+        <a href="https://github.com/am1475" target="_blank" rel="noopener noreferrer">
+            <img src="github.png" alt="LeetCode" class="w-10 h-10">
+        </a>
+    </div>
+</section>
+<footer class="bg-gray-800 bg-opacity-75 text-white py-6">
+    <div class="container mx-auto flex justify-between items-center">
+        <p class="text-lg">&copy; 2024 My Unique Portfolio. All rights reserved.</p>
+        <div class="flex space-x-4">
+            
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
+    
+    <!-- Script for typing effect -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+   <script src="index.js"></script>
+</body>
+</html>

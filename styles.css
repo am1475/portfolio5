@@ -1,0 +1,139 @@
+.glass {
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+/* Custom styles for navbar */
+nav {
+    background-color: #1f2937;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    color: #f3f4f6;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #60a5fa;
+}
+
+/* Custom styles for hero section */
+.hero-text {
+    color: #1f2937;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+}
+
+.hero-text p {
+    font-size: 1.25rem;
+    overflow: auto; /* Allow both horizontal and vertical scrolling */
+    white-space: nowrap; /* Adjusted to 'nowrap' initially */
+    margin: 0;
+}
+
+.image-card {
+    background-color: #f3f4f6;
+}
+
+/* Typewriter effect */
+.typewriter {
+    border-right: 0.15em solid orange; /* Vertical cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    overflow: hidden; /* Ensures the content is not visible until the typing effect starts */
+    margin: 0 auto; /* Centers the text */
+    animation: typing 5s steps(30, end), blink-caret 0.75s step-end infinite; /* Animation for typing effect and cursor blinking */
+}
+
+/* Animation keyframes for typing effect */
+@keyframes typing {
+    from {
+        width: 0; /* Start with no width (invisible) */
+    }
+}
+
+/* Animation keyframes for cursor blinking */
+@keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent; /* Cursor initially invisible */
+    }
+    50% {
+        border-color: orange; /* Cursor visible */
+    }
+}
+
+/* Timeline feature styles */
+.timeline {
+    list-style: none;
+    padding: 0;
+}
+
+.timeline-item {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 12px;
+    height: 12px;
+    background-color: #60a5fa; /* Adjust timeline circle color */
+    border-radius: 50%;
+}
+
+/* Adjust circle position for larger screens */
+@media (min-width: 768px) {
+    .timeline-item::before {
+        left: -3px;
+    }
+}
+
+/* Adjust timeline content alignment for larger screens */
+@media (min-width: 1024px) {
+    .timeline-item {
+        padding-left: 40px;
+    }
+
+    .timeline-item::before {
+        left: -6px;
+    }
+}
+
+/* Card styles */
+.card {
+    background-color: #f3f4f6;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #1f2937;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1.25rem;
+    color: #4b5563;
+}
+
+/* Full-width timeline sections */
+.full-width-section {
+    width: 100%;
+}
